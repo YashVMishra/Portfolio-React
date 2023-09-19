@@ -8,14 +8,15 @@ import Footer from "./components/footer";
 import Intro from "./components/intro";
 import Portfolio from "./components/portfolio";
 import Skills from "./components/skills";
+import About from "./components/about";
 
 const App = () => {
     return (
         <div>
             <Intro />
+            <About />
             <Skills />
             <Portfolio />
-            <Blogs />
             <Contact />
             <Footer />
         </div>
