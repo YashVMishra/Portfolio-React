@@ -2,7 +2,7 @@ import React from "react";
 import { AiOutlineCloudDownload } from "react-icons/ai";
 
 import CallToAction from "../shared/CallToAction";
-import TechIcons from "../../images/tech-icons.png";
+import Photo from "../../images/about-3.png";
 import Section from "../shared/section";
 import Resume from "../../download/Resume.pdf";
 
@@ -11,13 +11,13 @@ import "./style.scss";
 const About = () => {
     return (
         <Section
-            background="dark"
+            background="light"
             id="skills"
         >
             <div className="skills-content-wrapper">
                 <div className="left-col">
                     <img
-                        src={TechIcons}
+                        src={Photo}
                         alt="JavaScript, React, CSS, HTML, SASS, Photoshop, Figma"
                     />
                 </div>
