@@ -1,18 +1,18 @@
 import React from "react";
-import { AiOutlineCloudDownload } from "react-icons/ai";
+import { AiFillProject } from "react-icons/ai";
 
 import CallToAction from "../shared/CallToAction";
 import Photo from "../../images/about-3.png";
 import Section from "../shared/section";
-import Resume from "../../download/Resume.pdf";
+import { scrollToSection } from "../utils/helpers";
 
 import "./style.scss";
 
 const About = () => {
     return (
         <Section
-            background="light"
-            id="skills"
+            background="dark"
+            id="about"
         >
             <div className="skills-content-wrapper">
                 <div className="left-col">
@@ -22,20 +22,22 @@ const About = () => {
                     />
                 </div>
                 <div className="right-col">
-                    <h2>Skills</h2>
+                    <h2>About Me❤️</h2>
                     <p>
-                        Proficient in <span style={{fontWeight : "bolder", fontSize : "20px", textDecoration : "underline"}}>HTML5</span> and <span style={{fontWeight : "bolder", fontSize : "20px", textDecoration : "underline"}}>CSS</span>, ensuring the foundation of every 
-                        project is solid. My expertise extends to <span style={{fontWeight : "bolder", fontSize : "20px", textDecoration : "underline"}}>SCSS</span> for efficient 
-                        styling, <span style={{fontWeight : "bolder", fontSize : "20px", textDecoration : "underline"}}>Javascript</span> for dynamic interactivity, and <span style={{fontWeight : "bolder", fontSize : "20px", textDecoration : "underline"}}>React.js</span> for 
-                        building interactive user interfaces. I'm a beginner level in server-side 
-                        development using <span style={{fontWeight : "bolder", fontSize : "20px", textDecoration : "underline"}}>Node.js</span> and <span style={{fontWeight : "bolder", fontSize : "20px", textDecoration : "underline"}}>Express.js</span>, and I also excel in <span style={{fontWeight : "bolder", fontSize : "20px", textDecoration : "underline"}}>DSA</span> with <span style={{fontWeight : "bolder", fontSize : "20px", textDecoration : "underline"}}>Java</span>. With a strong grasp of 
-                        <span style={{fontWeight : "bolder", fontSize : "20px", textDecoration : "underline"}}> Object-Oriented Programming</span> principles. Additionally, I am a<span style={{fontWeight : "bolder", fontSize : "20px", textDecoration : "underline"}}> UI/UX </span>
-                        starter and trying my hands on <span style={{fontWeight : "bolder", fontSize : "20px", textDecoration : "underline"}}>Python</span> development as well.
+                        I hold a B.Tech in Computer Science, which fuels my passion for technology 
+                        and problem-solving. While my academic background is rooted in this field, 
+                        my true enthusiasm lies in frontend development. I'm also venturing into 
+                        the realm of UI/UX design, aiming to merge aesthetics with functionality. 
+                        Alongside, I have a solid foundation in Data Structures and Algorithms, 
+                        particularly in Java. Together, these elements define my journey as a tech
+                        enthusiast committed to creating user-centric digital experiences.  
                     </p>
                     <CallToAction
-                        text="Download CV"
-                        icon={<AiOutlineCloudDownload />}
-                        action={() => window.open(Resume)}
+                        text="Portfolio"
+                        icon={<AiFillProject />}
+                        action={() => {
+                        scrollToSection("portfolio");
+                        }}
                     />
                 </div>
             </div>

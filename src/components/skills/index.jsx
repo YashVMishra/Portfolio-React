@@ -1,5 +1,6 @@
 import React from "react";
 import { AiOutlineCloudDownload } from "react-icons/ai";
+import { BsTools } from "react-icons/bs";
 
 import CallToAction from "../shared/CallToAction";
 import TechIcons from "../../images/tech-icons.png";
@@ -11,7 +12,7 @@ import "./style.scss";
 const Skills = () => {
     return (
         <Section
-            background="dark"
+            background="light"
             id="skills"
         >
             <div className="skills-content-wrapper">
@@ -22,7 +23,7 @@ const Skills = () => {
                     />
                 </div>
                 <div className="right-col">
-                    <h2>Skills</h2>
+                    <h2><BsTools/>&nbsp;Skills</h2>
                     <p>
                         Proficient in <span style={{fontWeight : "bolder", fontSize : "20px", textDecoration : "underline"}}>HTML5</span> and <span style={{fontWeight : "bolder", fontSize : "20px", textDecoration : "underline"}}>CSS</span>, ensuring the foundation of every 
                         project is solid. My expertise extends to <span style={{fontWeight : "bolder", fontSize : "20px", textDecoration : "underline"}}>SCSS</span> for efficient 

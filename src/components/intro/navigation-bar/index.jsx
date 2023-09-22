@@ -56,9 +56,9 @@ const Navigation = () => {
                 </span>
                 <span
                     className="navigation-item"
-                    onClick={() => menuItemClickHandler("blogs")}
+                    onClick={() => menuItemClickHandler("about")}
                 >
-                    Blogs & Articles
+                    About Me
                 </span>
                 <CallToAction
                     text="Contact me"
