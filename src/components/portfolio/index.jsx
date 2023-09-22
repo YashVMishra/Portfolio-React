@@ -55,7 +55,7 @@ const projectsData = [
     {
         id: 6,
         name: "Pricing - Panel Template",
-        tags: ["html/css"],
+        tags: ["uiux"],
         link: "https://github.com/YashVMishra/Pricing-Panel-Template",
         media: {
             thumbnail: require("../../images/portfolio/pricing-panel.png"),
@@ -73,7 +73,7 @@ const projectsData = [
     {
         id: 8,
         name: "BS - Specific Webpage",
-        tags: ["html/css"],
+        tags: ["uiux"],
         link: "https://github.com/YashVMishra/WB-Using-BS-Essentials",
         media: {
             thumbnail: require("../../images/portfolio/wb-essentials.png"),

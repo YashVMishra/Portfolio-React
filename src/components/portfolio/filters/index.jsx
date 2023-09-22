@@ -8,10 +8,6 @@ const filtersData = [
         id: "all",
     },
     {
-        name: "HTML/CSS",
-        id: "html/css",
-    },
-    {
         name: "Javascript",
         id: "js",
     },
