@@ -24,13 +24,13 @@ const About = () => {
                 <div className="right-col">
                     <h2>About Me❤️</h2>
                     <p>
-                        I hold a B.Tech in Computer Science, which fuels my passion for technology 
+                        I hold a <span className="highlight">B.Tech</span> in <span className="highlight">Computer Science</span>, which fuels my passion for technology 
                         and problem-solving. While my academic background is rooted in this field, 
-                        my true enthusiasm lies in frontend development. I'm also venturing into 
-                        the realm of UI/UX design, aiming to merge aesthetics with functionality. 
-                        Alongside, I have a solid foundation in Data Structures and Algorithms, 
-                        particularly in Java. Together, these elements define my journey as a tech
-                        enthusiast committed to creating user-centric digital experiences.  
+                        my true enthusiasm lies in <span className="highlight">Frontend development</span>. I'm also venturing into 
+                        the realm of <span className="highlight">UI/UX design</span>, aiming to merge aesthetics with functionality. 
+                        Alongside, I have a solid foundation in <span className="highlight">Data Structures and Algorithms</span>, 
+                        particularly in <span className="highlight">Java</span>. Together, these elements define my journey as a tech
+                        enthusiast committed to creating user - centric digital experiences.  
                     </p>
                     <CallToAction
                         text="Portfolio"
