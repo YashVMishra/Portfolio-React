@@ -42,13 +42,13 @@ const Footer = () => {
                     </li>
                     <li
                         className="footer-menu-item"
-                        onClick={() => scrollToSection("blogs")}
+                        onClick={() => scrollToSection("about")}
                     >
-                        Blogs & Articles
+                        About Me
                     </li>
                     <li
                         className="footer-menu-item"
-                        action={() => {
+                        onClick={() => {
                             scrollToSection("contact");
                         }}
                     >
