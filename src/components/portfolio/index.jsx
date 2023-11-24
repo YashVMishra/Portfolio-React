@@ -27,11 +27,11 @@ const projectsData = [
     },
     {
         id: 3,
-        name: "Techystar - React App",
+        name: "Movix - Movie Search App",
         tags: ["react"],
-        link: "https://github.com/YashVMishra/Techystar-Project",
+        link: "https://github.com/YashVMishra/Movix-Movie-DB",
         media: {
-            thumbnail: require("../../images/portfolio/techystar.jpeg"),
+            thumbnail: require("../../images/portfolio/movix.png"),
         },
     },
     {
