@@ -16,8 +16,8 @@ const filtersData = [
         id: "react",
     },
     {
-        name: "UI/UX",
-        id: "uiux",
+        name: "Template",
+        id: "template",
     }
 ];
 

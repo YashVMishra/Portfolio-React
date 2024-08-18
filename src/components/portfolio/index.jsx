@@ -55,7 +55,7 @@ const projectsData = [
     {
         id: 6,
         name: "Pricing - Panel Template",
-        tags: ["uiux"],
+        tags: ["template"],
         link: "https://github.com/YashVMishra/Pricing-Panel-Template",
         media: {
             thumbnail: require("../../images/portfolio/pricing-panel.png"),
@@ -63,17 +63,17 @@ const projectsData = [
     },
     {
         id: 7,
-        name: "Weather App - API",
+        name: "Pokemon Card Generator - API",
         tags: ["js"],
-        link: "https://github.com/YashVMishra/Weather-App-CWH",
+        link: "https://github.com/YashVMishra/Pokemon-Card-Generator",
         media: {
-            thumbnail: require("../../images/portfolio/weather.jpg"),
+            thumbnail: require("../../images/portfolio/pokemon.jpeg"),
         },
     },
     {
         id: 8,
         name: "BS - Specific Webpage",
-        tags: ["uiux"],
+        tags: ["template"],
         link: "https://github.com/YashVMishra/WB-Using-BS-Essentials",
         media: {
             thumbnail: require("../../images/portfolio/wb-essentials.png"),

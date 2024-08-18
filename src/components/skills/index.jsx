@@ -31,8 +31,8 @@ const Skills = () => {
                         building interactive user interfaces. I'm a beginner level in server - side 
                         development using <span className="highlight">Node.js</span> and <span className="highlight">Express.js</span>, and I also excel 
                         in <span className="highlight">DSA</span> with <span className="highlight">Java</span>, with a strong grasp of 
-                        <span className="highlight"> Object-Oriented Programming</span> principles. Additionally, I am a <span className="highlight"> UI/UX </span>
-                        starter and trying my hands on <span className="highlight">Python</span> development as well.
+                        <span className="highlight"> Object-Oriented Programming</span> principles. Additionally, I am an explorer
+                        , trying my hands on different technologies and working on real-time projects.
                     </p>
                     <CallToAction
                         text="Download CV"
