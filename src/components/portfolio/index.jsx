@@ -67,7 +67,7 @@ const projectsData = [
         tags: ["js"],
         link: "https://github.com/YashVMishra/Pokemon-Card-Generator",
         media: {
-            thumbnail: require("../../images/portfolio/pokemon.jpeg"),
+            thumbnail: require("../../images/portfolio/pokemon.jpg"),
         },
     },
     {
