@@ -1,5 +1,5 @@
 import React from "react";
-import { FaReact, FaFigma } from "react-icons/fa";
+import { FaReact, FaFigma, FaJava, FaCloud } from "react-icons/fa";
 
 import robot from "../../../images/robot-3.png";
 import hand from "../../../images/hand.png";
@@ -43,18 +43,18 @@ const IntroContent = () => {
 
                     <div className="highlights horizontal">
                         <div className="icon">
-                            <FaFigma />
+                            <FaCloud />
                         </div>
-                        <div className="text">UI/UX Enthusiast</div>
+                        <div className="text">Tech Enthusiast</div>
                     </div>
 
                     <div className="highlights verticle">
                         <div className="icon">
-                            <FaReact />
+                            <FaJava />
                         </div>
                         <div className="text">
-                            <span>Javascript</span>
-                            Frontend / Backend
+                            <span>Java</span>
+                                Core / OOPs
                         </div>
                     </div>
                 </div>
