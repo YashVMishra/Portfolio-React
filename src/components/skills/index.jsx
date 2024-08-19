@@ -5,7 +5,7 @@ import { BsTools } from "react-icons/bs";
 import CallToAction from "../shared/CallToAction";
 import TechIcons from "../../images/tech-icons.png";
 import Section from "../shared/section";
-import Resume from "../../download/Yash Vardhan Mishrs Resume.pdf";
+import Resume from "../../download/Resume.pdf";
 
 import "./style.scss";
 
