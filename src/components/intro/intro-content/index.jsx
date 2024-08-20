@@ -24,9 +24,9 @@ const IntroContent = () => {
                         <span className="big-text">Yash Vardhan</span>
                     </h1>
                     <p className="title">
-                    Passionate frontend developer and UI/UX enthusiast with a strong 
-                    foundation in Java-based DSA. Crafting delightful digital experiences 
-                    through intuitive design and seamless code.
+                    Passionate explorer of different complex technologies, with problem solving 
+                    and OOPs proficiency in Java. Currently learning and developing simple 
+                    web applications and mixing knowledge with functionality.
                     </p>
                     <CallToAction
                         text="Contact me"
